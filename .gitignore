@@ -1,0 +1,38 @@
+# Local course source materials
+/gis 工程与开发-课程设计.zip
+/GIS 工程与开发-课程设计指南.docx
+/gis 工程与开发-需求分析与系统设计.docx
+/实验数据/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node.js
+node_modules/
+dist/
+coverage/
+.vite/
+
+# IDE and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
